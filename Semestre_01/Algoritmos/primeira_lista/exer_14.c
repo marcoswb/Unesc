@@ -15,5 +15,5 @@ main() {
     conta02 = conta02 + ((conta02 * 2) / 100);
     resto_salario = salario - (conta01 + conta02);
 
-    printf("O resto do salário de João é = %f", resto_salario);    
+    printf("O resto do salário de João é = %f \n", resto_salario);    
 }

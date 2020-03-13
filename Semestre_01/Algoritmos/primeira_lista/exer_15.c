@@ -8,5 +8,5 @@ main() {
     scanf("%f", &celsius);
     fahrenheit = (celsius * 1.8) + 32;
 
-    printf("A temperatura em Fahrenheit é = %f", fahrenheit);    
+    printf("A temperatura em Fahrenheit é = %f \n", fahrenheit);    
 }

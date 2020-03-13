@@ -10,6 +10,6 @@ main() {
     scanf("%f", &salario_funcionario);
     quantidade_salarios = salario_funcionario / salario_minimo;
 
-    printf("O salário do funcionário equivale a %f salários mínimos",quantidade_salarios);
+    printf("O salário do funcionário equivale a %f salários mínimos \n",quantidade_salarios);
 
 }

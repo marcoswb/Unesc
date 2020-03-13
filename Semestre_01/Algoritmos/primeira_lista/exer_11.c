@@ -10,6 +10,6 @@ main() {
     scanf("%f", &diagonal_menor);
     area = (diagonal_maior * diagonal_menor) / 2;
 
-    printf("A área do losango com as seguintes medidas é = %f", area);
+    printf("A área do losango com as seguintes medidas é = %f \n", area);
 
 }

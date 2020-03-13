@@ -11,6 +11,6 @@ main() {
     comissao = (vendas * 4) / 100;
     salario_final = salario + comissao;
 
-    printf("A comissão do funcionário será de %f e seu salário é = R$ %f", comissao, salario_final);
+    printf("A comissão do funcionário será de %f e seu salário é = R$ %f \n", comissao, salario_final);
 
 }

@@ -8,7 +8,7 @@ main() {
     printf("Informe o segundo número =>");
     scanf("%d", &n2);
     subtracao = n1 - n2;
-    printf("A subtração de %d por %d = %d", n1, n2, subtracao);
+    printf("A subtração de %d por %d = %d \n", n1, n2, subtracao);
 
     system("pause");
 }

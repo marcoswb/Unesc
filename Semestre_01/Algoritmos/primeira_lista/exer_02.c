@@ -12,6 +12,6 @@ main() {
     scanf("%d", &n3);
     multiplicacao = n1 * n2 * n3;
 
-    printf("A multiplicação de %d por %d por %d = %d", n1, n2, n3, multiplicacao);
+    printf("A multiplicação de %d por %d por %d = %d \n", n1, n2, n3, multiplicacao);
 
 }

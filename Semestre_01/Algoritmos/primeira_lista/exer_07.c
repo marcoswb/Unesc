@@ -9,6 +9,6 @@ main() {
     engordar = peso + ((peso * 15) / 100);
     emagrecer = peso - ((peso * 20) / 100);
 
-    printf("Se a pessoa com peso %f engordar 15% = %f Kg, se emagrecer 20% = %f Kg", peso, engordar, emagrecer);
+    printf("Se a pessoa com peso %f engordar 15% = %f Kg, se emagrecer 20% = %f Kg \n", peso, engordar, emagrecer);
 
 }

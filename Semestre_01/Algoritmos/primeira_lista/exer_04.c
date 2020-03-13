@@ -14,6 +14,6 @@ main() {
     scanf("%f", &p2);
     media = ((n1 * p1) + (n2 * p2)) / (p1 + p2);
 
-    printf("A média ponderada é = %f, %f, %f, %f, %f", n1, n2, p1, p2, media);
+    printf("A média ponderada é = %f, %f, %f, %f, %f \n", n1, n2, p1, p2, media);
 
 }

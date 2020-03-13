@@ -12,6 +12,6 @@ main() {
     scanf("%f", &altura);
     area = ((base_maior + base_menor) * altura) / 2;
 
-    printf("A área do trapézio com as seguintes medidas é = %f", area);
+    printf("A área do trapézio com as seguintes medidas é = %f \n", area);
 
 }

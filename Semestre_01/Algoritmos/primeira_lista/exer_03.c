@@ -10,6 +10,6 @@ main() {
     scanf("%d", &n2);
     divisao = n1 / n2;
 
-    printf("A divisão de %d por %d = %d", n1, n2, divisao);
+    printf("A divisão de %d por %d = %d \n", n1, n2, divisao);
 
 }
