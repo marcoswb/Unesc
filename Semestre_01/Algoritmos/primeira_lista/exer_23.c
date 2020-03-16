@@ -10,7 +10,7 @@ main() {
 	parte = numero / 3;
 
     printf("Numero digitado: %f \n", numero); 
-    printf("Terça parte do numero: %f \n", parte); 
+    printf("TerÃ§a parte do numero: %f \n", parte); 
 	
 	system("pause");   
 }

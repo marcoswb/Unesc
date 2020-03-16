@@ -2,7 +2,9 @@
 #include<stdlib.h>
 
 main() {
-    float A, B, C = 0;
+    float A, B, C;
+    
+    C = 0;
 
     printf("Informe um valor para A => ");
     scanf("%f", &A);
@@ -13,5 +15,6 @@ main() {
     A = B;
     B = C;
 
-    printf("O novo valor de A = %f e o novo valor de B = %f \n", A, B);    
+    printf("O novo valor de A é = %f \n", A);
+    printf("E o novo valor de B é = %f \n", B);
 }
