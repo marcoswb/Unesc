@@ -2,18 +2,18 @@
 #include<stdlib.h>
 
 main() {
-    float n1, n2, n3, media;
+    float nota_01, nota_02, nota_03, media;
 
     printf("Informe a primeira nota => ");
-    scanf("%f", &n1);
+    scanf("%f", &nota_01);
     printf("Informe a segunda nota => ");
-    scanf("%f", &n2);
+    scanf("%f", &nota_02);
     printf("Informe a terceira nota => ");
-    scanf("%f", &n3);
+    scanf("%f", &nota_03);
 
-	media = (n1 + n2 + n3) /3;
+	media = (nota_01 + nota_02 + nota_03) / 3;
 
-    printf("A média das notas é = %f \n", media); 
+    printf("A mÃ©dia das notas Ã© = %f \n", media); 
 	
 	system("pause");   
 }

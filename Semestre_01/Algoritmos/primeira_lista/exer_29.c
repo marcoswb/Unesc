@@ -2,24 +2,24 @@
 #include<stdlib.h>
 
 main() {
-    float n1, n2, n3, p1, p2, p3, media;
+    float nota_01, nota_02, nota_03, peso_01, peso_02, peso_03, media_ponderada;
 
     printf("Informe a primeira nota => ");
-    scanf("%f", &n1);
+    scanf("%f", &nota_01);
     printf("Informe o peso da nota => ");
-    scanf("%f", &p1);
+    scanf("%f", &peso_01);
     printf("Informe a segunda nota => ");
-    scanf("%f", &n2);
+    scanf("%f", &nota_02);
     printf("Informe o peso da nota => ");
-    scanf("%f", &p2);
+    scanf("%f", &peso_02);
     printf("Informe a terceira nota => ");
-    scanf("%f", &n3);
+    scanf("%f", &nota_03);
     printf("Informe o peso da nota => ");
-    scanf("%f", &p3);
+    scanf("%f", &peso_03);
 
-	media = ((n1 * p1) + (n2 * p2) + (n3 * p3)) / (p1 + p2 + p3);
+	media_ponderada = ((nota_01 * peso_01) + (nota_02 * peso_02) + (nota_03 * peso_03)) / (peso_01 + peso_02 + peso_03);
 
-    printf("A média ponderada das notas é = %f \n", media); 
+    printf("A mÃ©dia ponderada das notas Ã© = %f \n", media_ponderada); 
 	
 	system("pause");   
 }
