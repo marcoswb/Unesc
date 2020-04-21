@@ -12,7 +12,7 @@ main() {
     scanf("%d", &codigo);
 
     printf("A procedência será calculada seguindo a seguinte tabela.\n");
-    printf("+--------------------------------+-----------------------+\n");
+    printf("+------------------+--------------+\n");
     printf("| Código de origem |  Procedência |\n");
     printf("+------------------+--------------+\n");
     printf("|         1        |      Sul     |\n");
@@ -25,26 +25,46 @@ main() {
     printf("|     21 a 30      |   Nordeste   |\n");
     printf("+------------------+--------------+\n");
 
-    
-    if(codigo == 1) {
-        strcpy(procedencia, "Sul");
-    } else if(codigo == 2) {
-        strcpy(procedencia, "Norte");
-    } else if(codigo == 3) {
-        strcpy(procedencia, "Leste");
-    } else if(codigo == 4) {
-        strcpy(procedencia, "Oeste");
-    } else if((codigo == 5) | (codigo == 6)) {
-        strcpy(procedencia, "Nordeste");
-    } else if((codigo == 7) | (codigo == 8) | (codigo == 9)) {
-        strcpy(procedencia, "Sudeste");
-    } else if((codigo >= 10) && (codigo <= 20)) {
-        strcpy(procedencia, "Centro-Oeste");
-    } else if((codigo > 20) && (codigo <= 30)) {
-        strcpy(procedencia, "Nordeste");
-    } else {
-        strcpy(procedencia, "Inválida");
-    }
+
+    switch (codigo){
+        case 1: {
+            strcpy(procedencia, "Sul");
+            break;
+        }
+        case 2: {
+            strcpy(procedencia, "Norte");
+            break;
+        }
+        case 3: {
+            strcpy(procedencia, "Leste");
+            break;
+        }
+        case 4: {
+            strcpy(procedencia, "Oeste");
+            break;
+        }  
+        case 5 ... 6: {
+            strcpy(procedencia, "Nordeste");
+            break;
+        }
+        case 7 ... 9: {
+            strcpy(procedencia, "Sudeste");
+            break;
+        }
+        case 10 ... 20: {
+            strcpy(procedencia, "Centro-Oeste");
+            break;
+        }
+        case 21 ... 30: {
+            strcpy(procedencia, "Nordeste");
+            break;
+        }    
+        default: {
+            strcpy(procedencia, "Inválida");
+            break;
+        }
+        
+    }  
 
     printf("Preço produto = R$ %f \n", preco);
     printf("Código de origem %d \n", codigo);
